@@ -1,0 +1,1152 @@
+body {
+  background: url(%%background%%) no-repeat right top fixed #111111;
+  background-size: cover;
+}
+
+.content {
+  margin: 10px 360px 0px 20px;
+}
+
+.side {
+  background: transparent url(%%rgba%%) repeat;
+  margin: 10px 20px 60px 5px;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  color: #fff;
+}
+
+.side a {
+  color: #5bc5f2;
+}
+
+.icon-menu a {
+  background: transparent;
+}
+
+#search input[type="text"] {
+
+}
+
+.infobar {
+  background: #000;
+  border: 0;
+  color: #fff;
+}
+
+#searchexpando {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.side .spacer {
+  margin: 5px 0 10px 0;
+}
+
+.sidebox .spacer {
+  background: transparent;
+}
+
+.sidebox .subtitle {
+  color: #fff;
+}
+
+.sidecontentbox .content {
+  padding: 5px 0 0;
+  border: 0;
+}
+
+.sidecontentbox .title h1 {
+  color: #fff;
+}
+
+.titlebox form.toggle,
+.leavemoderator {
+  background: transparent;
+  color: #fff;
+}
+
+#sr-header-area {
+  background: transparent url(%%rgba%%) repeat;
+  border-bottom: none;
+  height: 24px;
+  line-height: 24px;
+}
+
+#sr-header-area .selected a,
+.sr-bar a {
+  color: #fff;
+}
+
+.dropdown.srdrop .selected {
+  color: #5bc5f2;
+}
+
+#sr-more-link {
+  display: none;
+}
+
+.sitetable {
+  padding: 20px;
+  background: transparent url(%%rgba%%) repeat;
+}
+
+.commentarea .sitetable .child {
+  margin-top: 20px;
+  border-left: 1px solid #696969;
+}
+
+.commentarea {
+  margin-top: 20px;
+  padding: 20px;
+  background: transparent url(%%rgba%%) repeat;
+}
+
+.commentarea .sitetable {
+  background: none;
+  padding: 0;
+}
+
+.commentarea .entry {
+  margin-left: 25px;
+}
+
+.commentarea a {
+  color: #5bc5f2;
+}
+
+.entry .buttons li a {
+  color: #888;
+  text-shadow: 0px 0px 3px #000000;
+}
+
+.panestack-title {
+  margin-top: 0;
+  color: #5bc5f2;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+.menuarea {
+  margin-top: 0;
+  color: #5bc5f2;
+  border-bottom: none;
+}
+
+#header {
+  height: 130px;
+  background-color: black;
+  background-image: url(%%Dylan-banner-right%%);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-bottom: 1px sold #333;
+}
+
+#header-img {
+  display: none;
+  margin: 0!important;
+  background: transparent!important;
+  opacity: 0;
+}
+
+.pagename {
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+}
+
+.pagename a {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  text-indent: -9999px;
+  display: block;
+  width: 760px; /* Change */
+  height: 110px;
+}
+
+h1.redditname {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(%%triplicate%%) no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.titlebox .word {
+  display: none;
+}
+
+.titlebox .number:after {
+  content: " complete unknown"!important;
+}
+
+div.titlebox span.word {
+  display: none;
+}
+
+div.titlebox .users-online span.number:after {
+  content: " without a home"!important;
+}
+
+#header .tabmenu {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#header .tabmenu li {
+  margin: 0;
+}
+
+#header .tabmenu li.selected a {
+  color: #5bc5f2!important;
+}
+
+#header .tabmenu li a {
+  margin: 0 30px 0 0;
+  padding: 0;
+  background-color: transparent;
+  color: #fff!important;
+  border: 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#header .tabmenu li:not(.selected) a {
+
+}
+
+#header .tabmenu li:not(.selected) a:hover {
+  background-color: transparent!important;
+  color: #5bc5f2!important;
+}
+
+#header-bottom-right {
+  padding: 0 10px;
+  top: 24px;
+  height: 34px;
+  line-height: 34px;
+  background: transparent url(%%rgba%%) repeat;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#header-bottom-right a {
+  color: #fff;
+}
+
+#header-bottom-right .user .userkarma {
+  color: #5bc5f2;
+}
+
+#header-bottom-left {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+}
+
+#header-bottom-left .redditname>a {
+  content: "";
+  font-size: 0px;
+  position: absolute;
+  top: -110px;
+  left: 0px;
+  background-image: url(%%Dylan-banner-left%%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 500px;
+  margin: 35px 35px 35px 90px;
+}
+
+#header-img {
+  display: none !important;
+  height: 60px;
+  width: auto;
+  margin: 25px 25px 25px 125px;
+}
+
+
+#newlink:before {
+  content: "Please use upload an image directly or use imgur for pictures. Linking to a blog may get caught in the spam filter. Message the mods if your link doesn't show up.";
+  display: block;
+  padding-bottom: 14px;
+  font-size: 1.2em;
+  color: red;
+  font-weight: bold;
+}
+
+#reddit-field {
+  display: none;
+}
+
+.arrow.up {
+  background-image: url(%%upvote-off%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+.arrow.upmod {
+  background-image: url(%%upvote-on%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+.arrow.down {
+  background-image: url(%%downvote-off%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+.arrow.downmod {
+  background-image: url(%%downvote-on%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+.comment .arrow.down {
+  display: block;
+  visibility: visible;
+  background-image: url(%%downvote-off%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+.comment .arrow.downmod {
+  display: block;
+  visibility: visible;
+  background-image: url(%%downvote-on%%);
+  background-position: 0px 0px;
+  width: 15px;
+  height: 12px;
+}
+
+
+.rank {
+  display: none;
+}
+
+.link {
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.link .score {
+  color: #696969;
+  padding: 6px 0;
+}
+
+.link .score.likes {
+  color: #5bc5f2;
+}
+
+.link .score.dislikes {
+  color: #FF0000;
+}
+
+.link .midcol {
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.link .title {
+  margin-bottom: 10px;
+  color: #5bc5f2;
+}
+
+.link.last-clicked {
+  color: #fff;
+  border: none;
+}
+
+.self .entry {
+  margin-left: 44px;
+}
+
+.link .usertext .md {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.thumbnail.default {
+  background-image: url(%%thumbnail-not-found%%);
+  background-position: 0px 0px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+h3.imgTitle {
+  color: white;
+}
+
+.usertext .markhelp {
+  background: #fff;
+  border: none;
+}
+
+.usertext.border .usertext-body {
+  background-color: #000;
+}
+
+.linkinfo {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.linkinfo .upvotes {
+  color: #5bc5f2;
+}
+
+.linkinfo .downvotes {
+  color: #dc1ca1;
+}
+
+.linkinfo .shortlink input {
+  border: 0;
+}
+
+.md {
+  color: #fff;
+}
+
+.md a {
+  color: #5bc5f2;
+}
+
+.usertext-edit textarea {
+  border: 0;
+}
+
+.thumbnail {
+  margin: 0 20px 0 10px;
+}
+
+.thumbnail.self {
+  display: none;
+}
+
+.thing .title { color: #fff!important; }
+.thing .title:visited { color: #5bc5f2!important; }
+
+.thing .title.loggedin { color: #fff!important; }
+.thing .title.loggedin:hover, .thing .title.loggedin:focus { color: #fff!important; }
+
+.thing .title.loggedin:visited, .thing .title.click, .thing .title:visited,
+.thing .title.loggedin.click, .thing .title.loggedin.click:visited { color: #5bc5f2!important; }
+
+.thing .title:visited:hover, .thing .title:visited:focus,
+.thing .title.loggedin.click:hover, .thing .title.loggedin.click:focus { color: #fff!important; }
+
+.thing.stickied a.title,
+.thing.stickied a.title.loggedin {
+  color: #00ff00!important;
+  text-shadow: 1px 1px #000000;
+  font-weight: normal;
+}
+
+.tagline a {
+  color: #5bc5f2;
+}
+
+.tagline .submitter {
+  color: #5bc5f2;
+  font-weight: bold;
+}
+
+.tagline .moderator,
+.tagline .stickied-tagline,
+.green {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.comment {
+  color: #fff;
+  background: transparent;
+}
+
+.comment .author {
+  font-weight: normal;
+}
+
+.author.submitter {
+  font-weight: bold;
+}
+
+.footer-parent {
+  margin-top: 60px;
+  padding-top: 0;
+  background-color: #000;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 0; /* ? */
+  background-color: #000;
+  border: none;
+}
+
+.footer .col {
+  border: none;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a.buygold {
+  color: #f0ff00;
+}
+
+.debuginfo {
+  padding-bottom: 60px;
+  background-color: #000;
+  text-align: center;
+}
+
+.debuginfo .content {
+  margin: 0;
+}
+
+h1,
+h2,
+.wiki-page-content .md h1,
+.wiki-page-content .md h2 {
+  color: #fff;
+}
+
+h1 a,
+h2 a {
+  color: #5bc5f2;
+}
+
+#newlink {
+  background-color: #fff;
+  margin: 10px 340px 0 0;
+  padding: 20px;
+}
+
+.infobar.welcome h1 {
+  color: #000;
+}
+
+#ad-frame,
+#ad_main {
+  background-color: #000;
+}
+
+.gadget small {
+  color: #fff;
+}
+
+.morelink {
+  background: #2c2c2c;
+  border: 0;
+  font-size: 14px;
+  font-weight: normal;
+  height: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.morelink a {
+  color: #fff;
+}
+
+.morelink a:hover {
+  background: #2c2c2c;
+  color: #5bc5f2;
+}
+
+.morelink .nub {
+  display: none;
+}
+
+.expando-button {
+  background: transparent;
+}
+
+.nsfw-stamp acronym {
+  color: #ff0000;
+  border: none!important;
+  background: #000;
+}
+
+.nextprev a {
+  background: #2c2c2c;
+  border: 0;
+  color: #fff;
+}
+
+.nextprev a:hover {
+  background: #2c2c2c;
+  border: 0;
+  color: #5bc5f2;
+}
+
+.nextprev .separator {
+  border-color: #888;
+}
+
+.fancy-toggle-button .active {
+  padding: 4px 8px;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.fancy-toggle-button .add {
+  background: #6596e5;
+}
+
+.fancy-toggle-button .remove {
+  background: #2c2c2c;
+}
+
+.commentarea #noresults.error {
+  color: #888;
+}
+
+/* RES */
+
+.comment .md p > a:visited {
+  color: #5bc5f2!important;
+}
+
+.RES-keyNav-activeElement,
+.commentarea .RES-keyNav-activeElement .md,
+.commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment {
+  background: transparent!important;
+  background-color: transparent!important;
+}
+
+.res-commentBoxes .comment {
+  border: none!important;
+}
+
+/* Subreddit Drop Choices */
+#sr-header-area .drop-choices.srdrop {
+	background: #2c2c2c;
+}
+
+.drop-choices {
+	border: 1px solid gray;
+}
+
+.drop-choices a.choice {
+    color: #fff;
+}
+
+.drop-choices a.choice:hover {
+	background-color: #2c2c2c;
+	color: #5bc5f2;
+}
+
+.RESGalleryControls span {
+  color: white;
+}
+
+.usertext-edit .RESDialogSmall .md.RESDialogContents {
+  background-color: transparent !important;
+}
+
+
+/* Search Bar and related items */
+input {
+	background: #2c2c2c;
+	color: #fff;
+}
+
+.infobar {
+	background: #2c2c2c !important;
+}
+
+
+/* Multireddit Bubble */
+.hover-bubble {
+	background: #2c2c2c;
+	border: none;
+}
+
+.hover-bubble.multi-selector label:hover {
+	background: #2c2c2c;
+}
+
+.hover-bubble.multi-selector strong, .hover-bubble.multi-selector a.sr {
+	color: #5bc5f2;
+}
+
+.hover-bubble.multi-selector strong {
+	color: #fff;
+}
+
+.hover-bubble.multi-selector .create-multi input[type="text"] {
+	background: #2c2c2c;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.hover-bubble.anchor-right.anchor-right::before, .hover-bubble.anchor-left.anchor-right::before {
+	border-left-color: #2c2c2c;
+}
+
+.hover-bubble.anchor-right.anchor-right::after, .hover-bubble.anchor-left.anchor-right::after {
+	border-left-color: #2c2c2c;
+}
+
+/* Fix for placeholder color in subscribe bubble... well any placeholder really */
+::-webkit-input-placeholder {
+   color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+
+/* Flair Selector */
+.flairselector {
+	background: #2c2c2c;
+	box-shadow: none;
+}
+
+.flairselector h2 {
+	background: none;
+}
+
+.flairoptionpane {
+	background-color: #2c2c2c;
+}
+
+.flairselector li a {
+	color: #5bc5f2 !important;
+}
+
+.flairselector li:hover {
+ 	background-color: #2c2c2c;
+}
+
+.flairselector li.selected {
+	border: 0.5px dashed #fff;
+	padding: 2px;
+}
+
+.flairselector li.selected:hover {
+	border: 0.5px dashed #fff;
+	padding: 2px;
+}
+
+.flairselector li {
+	border: none;
+}
+
+.flairselector li:hover {
+	border: none;
+}
+
+.flairselector form button {
+	margin-top: 2px;
+}
+
+.flairremove {
+	display: block !important;
+}
+
+
+/* Search Pane on Search Results Page */
+.searchpane {
+	background: url(%%rgba%%) repeat scroll 0 0 transparent;
+	border: none;
+	margin: 0;
+}
+
+.raisedbox h4 {
+	color: #fff !important;
+	text-transform: uppercase;
+}
+
+#search input[type="text"] {
+  background: #2c2c2c;
+  color: #fff !important;
+}
+
+.debuginfo {
+	background-color: transparent !important;
+	color: #5bc5f2;
+}
+
+.debuginfo .icon {
+	color: #5bc5f2;
+}
+
+#previoussearch #moresearchinfo {
+	border-color: gray;
+	color: #5bc5f2;
+}
+
+#search_hidemore {
+	color: #5bc5f2 !important;
+}
+
+#search {
+	color: #5bc5f2;
+}
+
+#previoussearch a {
+	color: gray;
+}
+
+#moresearchinfo a {
+	color: gray;
+}
+
+/* Search Facets */
+.searchfacets {
+	border: none;
+	background: url(%%rgba%%) repeat scroll 0 0 transparent;
+	margin: 0;
+	box-shadow: none;
+	color: #fff;
+}
+.facet {
+	color: #5bc5f2;
+}
+
+
+/* User Text */
+textarea {
+	background: #2c2c2c;
+	border: 1px solid gray !important;
+	color: #fff;
+}
+
+button {
+	background: #2c2c2c;
+	border: 1px solid gray;
+	color: #fff;
+}
+
+button:hover {
+    border: 1px solid #5bc5f2;
+}
+
+
+/* Short Link */
+.shortlink input {
+	color: #fff;
+	background: #2c2c2c;
+	border: 1px solid gray !important;
+}
+
+/* Light Drop Down */
+.drop-choices.lightdrop {
+	background: #2c2c2c;
+	border: 1px solid gray;
+}
+
+/* Preview Text Post */
+.link .usertext .md {
+	background: #2c2c2c !important;
+	border: 1px solid gray !important;
+}
+
+/* Submission Area */
+.roundfield{
+	background: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#newlink {
+	background: url(%%rgba%%) repeat scroll 0 0 transparent !important;
+}
+
+.formtabs-content {
+	border-top:  1px solid gray;
+}
+
+.tabmenu.formtab a {
+	background: none !important;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.tabmenu.formtab .selected a {
+	border: 1px solid gray;
+}
+
+.content.submit .info-notice {
+	background: #2c2c2c;
+	border: none;
+}
+
+.markhelp {
+	background: #2c2c2c !important;
+	color: #fff;
+}
+
+.markhelp tr {
+	background: #2c2c2c !important;
+}
+
+/* Code Block */
+pre, p code {
+	background: #2c2c2c !important;
+	border: 1px solid gray !important;
+	font-family: "Andale Mono","Lucida Console",Monaco,monospace;
+}
+
+/* Share Table */
+.sharetable.preftable th label {
+	color: #5bc5f2;
+}
+
+/* Wiki Page Content */
+.wiki-page-content {
+	background: url(%%rgba%%) repeat scroll 0 0 transparent;
+	margin: 20px 0 !important;
+	padding: 20px;
+}
+.wikirevisionlisting {
+    background: none !important;
+}
+
+/* Deleted Comments - Remove gray background */
+.usertext.grayed .usertext-body {
+    background: none;
+}
+
+
+/* Fixes for reddit beta users */
+.beta-hint {
+	position: relative;
+	display: inline;
+}
+.beta-hint a {
+	position: relative;
+	margin-left: 0px;
+        padding-right: 7px;
+	width: 15px;
+	height: 10px;
+}
+#beta-help {
+	color: #fff;
+        margin-top: 7px;
+}
+#beta-help a {
+	color: #5bc5f2;
+}
+.hover-bubble.anchor-top::after, .hover-bubble.anchor-top::before {
+	border-bottom-color: #2c2c2c;
+}
+
+/* Quotes */
+.md blockquote {
+	color: #b4b4b4;
+}
+
+/* RES */
+.res-navTop {
+	top: 24px !important;
+	padding: 0px !important;
+}
+#RESShortcutsEditContainer {
+	height: 18px !important;
+}
+body .RES-keyNav-activeElement, body .commentarea .RES-keyNav-activeElement .md, body .commentarea .RES-keyNav-activeElement.entry .noncollapsed{
+	background: #000000!important;
+}
+#header~.content .RES-keyNav-activeElement {
+	background: #000000!important;
+	padding: 5px;
+	border: .1em dashed hsl(0,0%,40%);
+	outline: none;
+}
+html.res-commentBoxes .comment .comment,
+html.res-commentBoxes .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	margin-right: 0;
+	background: none !important;
+	border: 0 !important;
+}
+
+.RESDialogSmall.livePreview > h3 {
+  color: white;
+  background-color: transparent;
+}
+
+.markdownEditor .edit-btn:not(.btn-macro) { /* RES markdown */
+	background-color: #888 !important;
+	border: 1px solid gray !important;
+}
+.markdownEditor .edit-btn:not(.btn-macro):hover {
+	border: 1px solid #5bc5f2 !important;
+}
+.commentingAs {
+	color: #fff;
+}
+.RESBigEditorPop {
+	background-color: #2c2c2c !important;
+	color: #fff !important;
+	border: 1px solid gray !important;
+}
+.RESBigEditorPop:hover {
+	border: 1px solid #5bc5f2 !important;
+}
+
+html.res time {
+    color: #888;
+}
+
+html.res span.score {
+    color: orangered;
+    font-weight: normal;
+}
+
+p.title span.domain {
+    text-shadow: 0px 0px 3px #000000;
+}
+
+p.title span.domain a {
+    text-shadow: 0px 0px 3px #000000;
+}
+
+/* Wiki */
+em {
+	color: #fff;
+}
+a {
+	color: #5bc5f2;
+}
+
+.flairselector .customizer {
+display: none !important;
+}
+
+.flair {
+border: none !important;
+padding:0px;
+background: url(%%spritesheet%%) no-repeat -9999px -9999px;
+display:inline-block;
+}
+
+.link .flair { display: none; }
+.link .flair, .entry .tagline .flair {
+float:left;
+}
+
+.flair.flair-Author {color:green;}
+
+.flair-Flair63{ background-position: 0 0; width: 40px; height: 40px; } 
+.flair-Flair66{ background-position: 0 -90px; width: 40px; height: 40px; } 
+.flair-FlairAsGood{ background-position: 0 -180px; width: 40px; height: 40px; } 
+.flair-FlairBobDylan{ background-position: 0 -270px; width: 40px; height: 40px; } 
+.flair-FlairInfidels{ background-position: 0 -360px; width: 40px; height: 40px; } 
+.flair-FlairNashvilleSkyline{ background-position: 0 -450px; width: 40px; height: 40px; } 
+.flair-FlairNintiesDylan{ background-position: 0 -540px; width: 40px; height: 40px; } 
+.flair-FlairRollingThunder{ background-position: 0 -630px; width: 40px; height: 40px; }
+.flair-01{ background-position: 0 0; width: 40px; height: 40px; } 
+.flair-02{ background-position: 0 -90px; width: 40px; height: 40px; } 
+.flair-03{ background-position: 0 -180px; width: 40px; height: 40px; } 
+.flair-04{ background-position: 0 -270px; width: 40px; height: 40px; } 
+.flair-05{ background-position: 0 -360px; width: 40px; height: 40px; } 
+.flair-06{ background-position: 0 -450px; width: 40px; height: 40px; } 
+.flair-07{ background-position: 0 -540px; width: 40px; height: 40px; } 
+.flair-08{ background-position: 0 -630px; width: 40px; height: 40px; } 
+.flair-1{ background-position: 0 -720px; width: 35px; height: 35px; } 
+.flair-10{ background-position: 0 -805px; width: 35px; height: 35px; } 
+.flair-11{ background-position: 0 -890px; width: 35px; height: 35px; } 
+.flair-12{ background-position: 0 -975px; width: 35px; height: 35px; } 
+.flair-13{ background-position: 0 -1060px; width: 35px; height: 35px; } 
+.flair-14{ background-position: 0 -1145px; width: 35px; height: 35px; } 
+.flair-15{ background-position: 0 -1230px; width: 35px; height: 35px; } 
+.flair-16{ background-position: 0 -1315px; width: 35px; height: 35px; } 
+.flair-17{ background-position: 0 -1400px; width: 35px; height: 35px; } 
+.flair-18{ background-position: 0 -1485px; width: 35px; height: 35px; } 
+.flair-19{ background-position: 0 -1570px; width: 35px; height: 33px; } 
+.flair-2{ background-position: 0 -1653px; width: 35px; height: 35px; } 
+.flair-20{ background-position: 0 -1738px; width: 35px; height: 35px; } 
+.flair-21{ background-position: 0 -1823px; width: 35px; height: 35px; } 
+.flair-22{ background-position: 0 -1908px; width: 35px; height: 35px; } 
+.flair-23{ background-position: -90px 0; width: 35px; height: 35px; } 
+.flair-24{ background-position: -90px -85px; width: 35px; height: 35px; } 
+.flair-25{ background-position: -90px -170px; width: 35px; height: 35px; } 
+.flair-26{ background-position: -90px -255px; width: 35px; height: 35px; } 
+.flair-27{ background-position: -90px -340px; width: 35px; height: 35px; } 
+.flair-28{ background-position: -90px -425px; width: 35px; height: 35px; } 
+.flair-29{ background-position: -90px -510px; width: 35px; height: 35px; } 
+.flair-3{ background-position: -90px -595px; width: 35px; height: 35px; } 
+.flair-30{ background-position: -90px -680px; width: 35px; height: 35px; } 
+.flair-31{ background-position: -90px -765px; width: 35px; height: 35px; } 
+.flair-32{ background-position: -90px -850px; width: 35px; height: 35px; } 
+.flair-33{ background-position: -90px -935px; width: 35px; height: 35px; } 
+.flair-34{ background-position: -90px -1020px; width: 35px; height: 35px; } 
+.flair-35{ background-position: -90px -1105px; width: 35px; height: 35px; } 
+.flair-36{ background-position: -90px -1190px; width: 35px; height: 35px; } 
+.flair-37{ background-position: -90px -1275px; width: 35px; height: 35px; } 
+.flair-38{ background-position: -90px -1360px; width: 35px; height: 35px; } 
+.flair-39{ background-position: -90px -1445px; width: 35px; height: 35px; } 
+.flair-4{ background-position: -90px -1530px; width: 35px; height: 35px; } 
+.flair-40{ background-position: -90px -1615px; width: 35px; height: 35px; } 
+.flair-41{ background-position: -90px -1700px; width: 35px; height: 35px; } 
+.flair-42{ background-position: -90px -1785px; width: 35px; height: 35px; } 
+.flair-43{ background-position: -90px -1870px; width: 35px; height: 35px; } 
+.flair-44{ background-position: -180px 0; width: 35px; height: 35px; } 
+.flair-45{ background-position: -180px -85px; width: 35px; height: 35px; } 
+.flair-46{ background-position: -180px -170px; width: 35px; height: 35px; } 
+.flair-47{ background-position: -180px -255px; width: 35px; height: 35px; } 
+.flair-48{ background-position: -180px -340px; width: 35px; height: 35px; } 
+.flair-49{ background-position: -180px -425px; width: 35px; height: 35px; } 
+.flair-5{ background-position: -180px -510px; width: 35px; height: 35px; } 
+.flair-50{ background-position: -180px -595px; width: 35px; height: 35px; } 
+.flair-51{ background-position: -180px -680px; width: 35px; height: 35px; } 
+.flair-52{ background-position: -180px -765px; width: 35px; height: 35px; } 
+.flair-53{ background-position: -180px -850px; width: 35px; height: 35px; } 
+.flair-54{ background-position: -180px -935px; width: 35px; height: 35px; } 
+.flair-55{ background-position: -180px -1020px; width: 35px; height: 35px; } 
+.flair-56{ background-position: -180px -1105px; width: 35px; height: 35px; } 
+.flair-57{ background-position: -180px -1190px; width: 35px; height: 35px; } 
+.flair-58{ background-position: -180px -1275px; width: 35px; height: 35px; } 
+.flair-59{ background-position: -180px -1360px; width: 35px; height: 35px; } 
+.flair-6{ background-position: -180px -1445px; width: 35px; height: 35px; } 
+.flair-60{ background-position: -180px -1530px; width: 35px; height: 35px; } 
+.flair-61{ background-position: -180px -1615px; width: 35px; height: 35px; } 
+.flair-62{ background-position: -180px -1700px; width: 35px; height: 35px; } 
+.flair-7{ background-position: -180px -1785px; width: 35px; height: 35px; } 
+.flair-8{ background-position: -180px -1870px; width: 35px; height: 35px; } 
+.flair-9{ background-position: -270px 0; width: 35px; height: 35px; }

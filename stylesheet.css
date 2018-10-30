@@ -3232,3 +3232,79 @@ read message by Hakan Yalcin from the Noun Project
     background-size:300px;
 }
 /*END SIDEBAR IMAGE*/
+
+/*BACKGROUND IMAGE*/
+body {
+    background: url(%%background%%) no-repeat right top fixed #111111;
+    background-size: cover;
+}
+/*END BACKGROUND IMAGE*/
+
+/*CONTENT TRANSPARENT COLOR*/
+div.content {
+    background: transparent url(%%rgba%%) repeat;
+}
+
+.side {
+    background: transparent url(%%rgba%%) repeat;
+}
+/*END CONTENT TRANSPARENT COLOR*/
+
+/*SUBMIT BUTTONS*/
+.thing .md table thead tr th, .morelink, .side .titlebox .md h3 a, .tabmenu, .wiki-page-content .md table thead tr th {
+    background: transparent url(%%rgba%%) repeat;
+}
+/*END SUBMIT BUTTONS*/
+
+/*SIDEBAR MD2*/
+.side .md h2 {
+    background: #4c0203
+}
+/*END SIDEBAR MD2*/
+
+/*VOTING ARROWS*/
+.arrow.upmod {
+    background-color: transparent!important;
+}
+
+.arrow.downmod {
+    background-color: transparent!important;
+}
+/*END VOTING ARROWS*/
+
+/*ACTIVE COMMENT BACKGROUND*/
+body.comments-page .RES-keyNav-activeElement, body.comments-page .RES-keyNav-activeElement .md-container, body:not(.comments-page) .RES-keyNav-activeElement, body:not(.comments-page) .RES-keyNav-activeElement .md-container {
+    background-color: transparent!important;
+    background: transparent url(%%rgba%%) repeat;
+}
+/*END ACTIVE COMMENT BACKGROUND*/
+
+/*WRITE COMMENT AREA BACKGROUND*/
+.commentarea>.usertext {
+    background-color: transparent!important;
+    background: transparent url(%%rgba%%) repeat;
+}
+/*END WRITE COMMENT AREA BACKGROUND*/
+
+/*COMMENTS BACKGROUND*/
+.commentarea .child .thing.comment .comment, .commentarea .child .thing.comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .thing {
+    background: transparent url(%%rgba%%) repeat!important;
+}
+
+.commentarea .child .thing.comment, .commentarea .child .thing.comment .comment, .commentarea .child .thing.comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .child .thing.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .commentarea .thing {
+    background: transparent url(%%rgba%%) repeat!important;
+}
+/*END COMMENTS BACKGROUND*/
+
+/*POST TITLE IN COMMENTS AREA BACKGROUND*/
+body.comments-page .link {
+    background: #000!important;
+}
+/*END POST TITLE IN COMMENTS AREA BACKGROUND*/
+
+/*LINK INFO BACKGROUND */
+.linkinfo {
+    background-color: transparent!important;
+    background: transparent url(%%rgba%%) repeat;
+}
+/*END LINK INFO BACKGROUND */

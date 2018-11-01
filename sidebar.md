@@ -15,10 +15,11 @@ Ladies and gentlemen — Columbia recording artist **Bob Dylan**!
 ## Links
 * [Official Site](http://www.bobdylan.com)
 * [Discography](http://en.wikipedia.org/wiki/Bob_Dylan_discography) 
-* [Theme Time Radio Hour](http://www.xmradio.com/bobdylan) - With your host, Bob Dylan
+* [Theme Time Radio Hour](http://www.themetimeradio.com) - With your host, Bob Dylan
 * [ExpectingRain](http://www.expectingrain.com) - A well-rounded Dylan fansite
 * [Bob's Boots](http://www.bobsboots.com) - A guide to Dylan bootlegs
 * [DylanChords](http://www.dylanchords.info) - A comprehensive Dylan chord archive.
-* [DylanStubs](http://dylanstubs.com/pictures/welcome.htm) - A Dylan picture archive
+* [Bob Links](http://www.boblinks.com) - Provides Bob Dylan concert information and links to other Bob Dylan related sites.
+* [Olof's Pages](http://www.bjorner.com/bob.htm) - An extensive archive of Bob Dylan's recording- and live sessions and more.
 
 [This subreddit is night mode compatible](#/RES_SR_Config/NightModeCompatible)

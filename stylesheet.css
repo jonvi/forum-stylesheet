@@ -3308,3 +3308,19 @@ body.comments-page .link {
     background: transparent url(%%rgba%%) repeat;
 }
 /*END LINK INFO BACKGROUND */
+
+/*RES ALBUM TEXT COLOR*/
+.res-step-progress {
+    color:#FFF;
+}
+
+.res-gallery .res-gallery-title {
+    color:#FFF;
+}
+/*END RES ALBUM TEXT COLOR*/
+
+/*LIVE PREVIEW TEXT COLOR*/
+.livePreview .md p {
+    color: #FFF;
+}
+/*END LIVE PREVIEW TEXT COLOR*/

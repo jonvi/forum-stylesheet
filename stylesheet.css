@@ -3324,3 +3324,9 @@ body.comments-page .link {
     color: #FFF;
 }
 /*END LIVE PREVIEW TEXT COLOR*/
+
+/*TEXT AREA MARGIN*/
+div.usertext-edit {
+    margin-top: 35px;
+}
+/*END TEXT AREA MARGIN*/
